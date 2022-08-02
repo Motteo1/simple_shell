@@ -1,5 +1,8 @@
 # simple_shell
-This file comtains descriptions of the files in this directory
 
-#AUTHORS:
-Tim Irungu & Faith Awuor
+This custom shell will have similar capabilities as the unix sh
+
+This file also contains descriptions of the files in this directory
+
+# AUTHORS:
+Faith Awuor & Tim Irungu
