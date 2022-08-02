@@ -1,2 +1,5 @@
 # simple_shell
-Unix shell built to mimic sh
+This file comtains descriptions of the files in this directory
+
+#AUTHORS:
+Tim Irungu & Faith Awuor
