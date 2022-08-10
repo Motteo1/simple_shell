@@ -26,3 +26,8 @@ typedef struct list
 } list_t;
 
 /* function prototypes */
+size_t get_line(char **str);
+int t_strlen(char *str, intpos, char delm);
+char **_str_tok(char *str, char *delm);
+
+#endif
