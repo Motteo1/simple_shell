@@ -41,7 +41,7 @@ char *c_strcat(char *dest, char *src)
 }
 
 /**
- * c_setenv - custom _setenv by concatenating string first before setting 
+ * c_setenv - custom _setenv by concatenating string first before setting
  * @env: environmental variable linked list
  * @name: environmental variable name (e.g. "OLDPWD")
  * @dir: directory path (e.g. "/home/vagrant/directory1")
@@ -150,7 +150,7 @@ int _cd(char **str, list_t *env, int num)
 		}
 		else /* Usage: cd directory1 */
 		{
-			if (str[1][0]!= '/')
+			if (str[1][0] != '/')
 			{
 				dir = getcwd(dir, 0);
 				dir = _strcat(dir, "/");
