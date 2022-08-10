@@ -27,7 +27,7 @@ typedef struct list
 
 /* function prototypes */
 size_t get_line(char **str);
-int t_strlen(char *str, intpos, char delm);
+int t_strlen(char *str, int pos, char delm);
 char **_str_tok(char *str, char *delm);
 
 #endif
