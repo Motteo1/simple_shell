@@ -41,14 +41,14 @@ int _execve(char **s, list_t *env, int num)
 		free_double_ptr(s);
 		return (127);
 	}
-	else /* else fork and execute command */
+	else /* else fork and execute executable command */
 	{
 		pid = fork();
 		if (pid == 0) /* if child process, execute */
 		{
 			if (execve(holder, s, NULL) == -1)
 			{
-				not_foud(s[0], num, env); /* special err msg */
+				not_found(s[0], num, env); /* special err msg */
 				c_exit(s, env);
 			}
 		}
