@@ -31,5 +31,10 @@ int t_strlen(char *str, int pos, char delm);
 char **_str_tok(char *str, char *delm);
 void c_exit(char **str, list_t *env);
 int _execve(char **s, list_t *env, int num);
+int path_execute(char *command, vars_t *vars);
+char *find_path(char **env);
+void check_for_path(vars_t *vars);
+int execute_cwd(vars_t *vars);
+int check_for_dir(char *str);
 
 #endif
