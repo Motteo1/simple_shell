@@ -31,5 +31,9 @@ int t_strlen(char *str, int pos, char delm);
 char **_str_tok(char *str, char *delm);
 void c_exit(char **str, list_t *env);
 int _execve(char **s, list_t *env, int num);
+char *_which(char *str,list_t *env);
+void free_double_ptr(char **str);
+void free_linked_list(list_t *list);
+void not_found(char *str, int num, list_t *env);
 
 #endif
