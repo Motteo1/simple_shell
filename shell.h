@@ -29,5 +29,7 @@ typedef struct list
 size_t get_line(char **str);
 int t_strlen(char *str, int pos, char delm);
 char **_str_tok(char *str, char *delm);
+void c_exit(char **str, list_t *env);
+int _execve(char **s, list_t *env, int num);
 
 #endif
