@@ -78,4 +78,10 @@ void _puts2(char *str);
 char *_uitoa(unsigned int count);
 unsigned int sig_flag;
 
+char *c_strcat(char *dest, char *src);
+int c_setenv(list_t **env, char *name, char *dir);
+void cd_only(list_t *env, char *current);
+int cd_execute(list_t *env, char *current, char *dir, char *str, int num);
+int _cd(char **str, list_t *env int num);
+
 #endif /* _SHELL_H_ */
